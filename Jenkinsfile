@@ -1,12 +1,6 @@
 pipeline
 {
-    agent
-    {
-        dockerfile 
-        {
-            filename 'Dockerfile'
-        }
-    }
+    agent any
     environment
     {
         AWS_DEFAULT_REGION = 'us-east-1'
