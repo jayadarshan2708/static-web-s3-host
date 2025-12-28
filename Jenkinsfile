@@ -11,7 +11,7 @@ pipeline
         {
             steps
             {
-                git 'https://github.com/jayadarshan2708/static-web-s3-host.git'
+                git branch: 'main', url: 'https://github.com/jayadarshan2708/static-web-s3-host.git', credentialsId: 'git_cred'
             }
         }
         stage ('Terraform init and apply')
