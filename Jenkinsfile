@@ -11,7 +11,7 @@ pipeline
         {
             steps
             {
-                git 'https://gitthub.com/jayadarshan2708/static-web-s3-host.git'
+                git 'https://github.com/jayadarshan2708/static-web-s3-host.git'
             }
         }
         stage ('Terraform init and apply')
