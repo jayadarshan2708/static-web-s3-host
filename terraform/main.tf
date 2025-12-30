@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "static_site" {
-  bucket = "devops-static-site"
+  bucket = "jd-devops-static-site"
 
   tags = {
     Name = "StaticWebsite"
