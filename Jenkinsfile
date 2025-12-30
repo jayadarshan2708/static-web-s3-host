@@ -19,6 +19,7 @@ pipeline
           environment{
             AWS_ACCESS_KEY_ID = credentials('aws-cred')
             AWS_SECRET_ACCESS_KEY = credentials('aws-cred')
+            AWS_DEFAULT_REGION = 'us-east-1'
           }
           steps
           {
